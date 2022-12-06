@@ -13,6 +13,7 @@ color: #5c8088;
 .kg-header-card.kg-style-image a.kg-header-card-button, .kg-header-card.kg-style-image h1.kg-header-card-header, .kg-header-card.kg-style-image h3.kg-header-card-subheader {
     z-index: 998;
 }
+
     .header-nav {
     z-index: 999;
 }
