@@ -2,10 +2,10 @@ html {
     font-size: 56%;
 }
 :root {
---color-font-one: #5c8088;
+    --color-font-one: #5c8088;
 }
 body {
-color: #5c8088;
+    color: #5c8088;
 }
 
 /* HEADER */
@@ -87,6 +87,9 @@ color: #5c8088;
 
 /* POST */
 
+    .post-content p {
+    text-indent: 6px;
+}
     .post-content h3 {
     color: #73969e;
 }
