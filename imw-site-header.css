@@ -149,14 +149,17 @@ color: #5c8088;
 }
 
 @media (max-width: 768px) {
-.post-content h3 {
+    .post-content h3 {
     font-size: 2.2rem;
 }
 }
 
 @media (max-width: 640px) {
+    .kg-header-card {
+    padding: 12vmin 1em;
+}
     .kg-header-card h1.kg-header-card-header {
-    font-size: 1.8em;
+    font-size: 2em;
 }
     .kg-header-card h2.kg-header-card-header {
     font-size: 2.6em;
