@@ -91,6 +91,7 @@ body {
     text-indent: 6px;
 }
     .post-content h3 {
+    font-size: 2.8rem;
     color: #73969e;
 }
     .post-header-wrap.is-center {
@@ -116,9 +117,6 @@ body {
 }
     .post-content hr {
     border-top: 1px dotted #82bac7;
-}
-    .post-content h3 {
-    font-size: 2.8rem;
 }
     .post-content .kg-callout-card .kg-callout-emoji {
     display: none;
