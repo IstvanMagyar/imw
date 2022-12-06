@@ -137,3 +137,25 @@ color: #5c8088;
     .item-title {
     font-size: 2rem;
 }}
+
+
+.kg-header-card:not(.kg-style-light) h1.kg-header-card-header, .kg-header-card:not(.kg-style-light) h3.kg-header-card-subheader {
+    color: #fff;
+}
+    .kg-header-card h1.kg-header-card-header {
+    font-size: 5em;
+    font-weight: 700;
+    line-height: 1.1em;
+    letter-spacing: -.01em;
+    margin: 0;
+}
+    
+    @media (max-width: 1024px) {
+    .kg-header-card h1.kg-header-card-header {
+    font-size: 4em;
+        }}
+    @media (max-width: 640px) {
+    .kg-header-card h1.kg-header-card-header {
+    font-size: 2.2em;
+        }
+    }
