@@ -89,7 +89,7 @@ body {
     color: #73969e;
 }
     .post-content h3 {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     color: #73969e;
 }
     .post-content p {
@@ -103,8 +103,9 @@ body {
     margin-left: 0;
 }
     .post-content blockquote {
-    color: #82b9c7;
-    border-left: 3px solid #82bac7;
+    color: #88aab2;
+    border-left: 3px solid #88aab2;
+    font-size: 2.4rem;
 }
     .post-content a {
     color: #32c3e3;
@@ -112,6 +113,7 @@ body {
     .post-content .kg-button-card .kg-btn, .post-content .kg-product-card .kg-product-card-button, .post-content .kg-header-card .kg-header-card-button {
     background-color: #ffffff;
     border: 1px solid #5d8088;
+    color: #5d8088;
 }
     .post-sidebar .subscribe-form.is-sticky {
     background-color: #daebf0;
@@ -155,7 +157,7 @@ body {
     font-size: 3.2rem;
 }
     .post-content h3 {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
 }
 }
 
