@@ -124,6 +124,12 @@ body {
     .post-content .kg-callout-card .kg-callout-emoji {
     display: none;
 }
+    .subscribe-form {
+    background-color: #eef2f3;
+}
+    .subscribe-title {
+    color: #5d8088;
+}
 
 /* FOOTER */
 
