@@ -87,13 +87,16 @@ body {
 }
 
 /* POST */
-
-    .post-content p {
-    text-indent: 7px;
+    .post-content h2 {
+    font-size: 4.2rem;
+    color: #73969e;
 }
     .post-content h3 {
     font-size: 2.8rem;
     color: #73969e;
+}
+    .post-content p {
+    text-indent: 7px;
 }
     .post-header-wrap.is-center {
     text-align: left;
@@ -108,7 +111,6 @@ body {
 }
     .post-content a {
     color: #32c3e3;
-    text-decoration: none;
 }
     .post-content .kg-button-card .kg-btn, .post-content .kg-product-card .kg-product-card-button, .post-content .kg-header-card .kg-header-card-button {
     background-color: #d9eaee;
