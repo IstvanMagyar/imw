@@ -18,10 +18,6 @@ body {
     padding-top: 0vh;
     padding-bottom: 0vh;
 }
-    .header-nav a {
-    border-right: 1px solid #5c8088;
-    padding-right: 10px;
-}
     .header-wrap li, .header-wrap a {
     font-size: 1.5rem;
     text-transform: uppercase;
