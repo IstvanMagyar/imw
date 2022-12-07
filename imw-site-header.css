@@ -79,7 +79,8 @@ body {
 /* BUTTON */
 
     .global-button::before, .global-button.is-cta::before {
-    background-color: #d9e9ee;
+    background-color: #ffffff;
+    border: 1px solid #5d8088;
 }
 
 /* POST */
@@ -109,7 +110,8 @@ body {
     color: #32c3e3;
 }
     .post-content .kg-button-card .kg-btn, .post-content .kg-product-card .kg-product-card-button, .post-content .kg-header-card .kg-header-card-button {
-    background-color: #d9eaee;
+    background-color: #ffffff;
+    border: 1px solid #5d8088;
 }
     .post-sidebar .subscribe-form.is-sticky {
     background-color: #daebf0;
