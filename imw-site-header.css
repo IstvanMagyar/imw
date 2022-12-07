@@ -52,7 +52,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    text-align: left;
 
 }
     .kg-header-card.kg-style-image::before {
@@ -63,7 +64,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(0deg,#5a5a5a40,#5a5a5a40);
+    background: linear-gradient(0deg,#5a5a5a36,#5a5a5a36);
 }
     .kg-header-card.kg-style-image {
     min-height: 600px;
@@ -163,7 +164,7 @@ body {
     font-size: 2em;
 }
     .kg-header-card h2.kg-header-card-header {
-    font-size: 2.6em;
+    font-size: 2em;
 }
     .kg-header-card.kg-style-image {
     min-height: 320px;
