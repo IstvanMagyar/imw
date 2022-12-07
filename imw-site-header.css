@@ -142,11 +142,11 @@ body {
     .header-checkbox:checked~nav {
     text-align: left;
 }
-    .header-nav a {
-    border-right: 0px solid red;
-}
     .header-nav nav li {
     margin-left: 0.5vw;
+}
+    .header-nav a {
+    padding: 8px;
 }
 }
 
