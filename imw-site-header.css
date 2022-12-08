@@ -202,3 +202,10 @@ body {
     font-size: 2rem;
 }
 }
+
+@media (max-width: 480px) {
+    .header-wrap {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+}
