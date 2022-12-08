@@ -118,9 +118,9 @@ body {
     border: 1px solid #5d8088;
     color: #5d8088;
 }
-    /*.post-sidebar .subscribe-form.is-sticky {
+    .post-sidebar .subscribe-form.is-sticky {
     background-color: #eef2f3;
-}*/
+}
     .subscribe-form {
     background-color: #eef2f3;
 }
@@ -163,10 +163,10 @@ body {
 
 @media (max-width: 768px) {
     .post-content h2 {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
 }
     .post-content h3 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
 }
 }
 
