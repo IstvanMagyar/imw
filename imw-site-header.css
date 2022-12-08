@@ -84,6 +84,9 @@ body {
 }
 
 /* POST */
+    .post-content {
+    margin: 12vh auto 15vh;
+}
     .post-content h2 {
     font-size: 4.2rem;
     color: #73969e;
@@ -115,17 +118,17 @@ body {
     border: 1px solid #5d8088;
     color: #5d8088;
 }
-    .post-sidebar .subscribe-form.is-sticky {
-    background-color: #daebf0;
+    /*.post-sidebar .subscribe-form.is-sticky {
+    background-color: #eef2f3;
+}*/
+    .subscribe-form {
+    background-color: #eef2f3;
 }
     .post-content hr {
     border-top: 1px dotted #82bac7;
 }
     .post-content .kg-callout-card .kg-callout-emoji {
     display: none;
-}
-    .subscribe-form {
-    background-color: #eef2f3;
 }
     .subscribe-title {
     color: #5d8088;
