@@ -159,6 +159,13 @@ body {
 
 
 /* RESPONSIVE */
+
+.header-search.is-mobile svg {
+    position: absolute;
+    top: 9px;
+    right: 45px;
+    width: 17px;
+}
     
 @media (max-width: 1024px) {
     .kg-header-card h1.kg-header-card-header {
