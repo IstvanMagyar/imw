@@ -30,7 +30,7 @@ body {
     text-transform: uppercase;
     color: #fff;
 }
-    .header-wrap, .header-checkbox:checked~nav, .post-content h2 {
+    .header-wrap, .header-checkbox:checked~nav {
     min-height: 40px;
     padding-top: 0vh;
     padding-bottom: 0vh;
