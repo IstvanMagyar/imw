@@ -177,6 +177,9 @@ body {
     .header-logo {
     margin: 11px .5vw 11px 0;
 }
+    .post-header-wrap {
+    margin-top: 10vh;
+}
 }
 
 @media (max-width: 768px) {
