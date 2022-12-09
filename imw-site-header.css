@@ -109,6 +109,9 @@ body {
     .post-header-wrap {
     margin-top: 10vh;
 }
+    .hero-wrap {
+    margin-top: 10vh;
+}
     .post-header-wrap.is-center {
     text-align: left;
 }
