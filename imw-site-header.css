@@ -106,6 +106,9 @@ body {
     .post-content p {
     text-indent: 7px;
 }
+    .post-header-wrap {
+    margin-top: 10vh;
+}
     .post-header-wrap.is-center {
     text-align: left;
 }
