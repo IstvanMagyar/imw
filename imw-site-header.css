@@ -54,7 +54,7 @@ body {
     z-index: 998;
 }
     .kg-header-card {
-    padding: 12vmin 4em;
+    padding: 12vmin 4em 8vmin;
     min-height: 60vh;
     display: flex;
     flex-direction: column;
