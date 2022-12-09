@@ -22,6 +22,9 @@ body {
     padding-top: 0vh;
     padding-bottom: 0vh;
 }
+    .header-nav nav li {
+    margin-left: 1.8vw;
+}
     .header-wrap li, .header-wrap a {
     font-size: 1.4rem;
     text-transform: uppercase;
