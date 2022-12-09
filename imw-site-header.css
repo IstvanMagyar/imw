@@ -124,6 +124,9 @@ body {
     border-left: 3px solid #88aab2;
     font-size: 2.3rem;
 }
+    .imw-quote-couple {
+        font-weight: normal;
+}
     .post-content a {
     color: #32c3e3;
 }
