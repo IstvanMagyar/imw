@@ -1,5 +1,5 @@
 html {
-    font-size: 54%;
+    font-size: 56%;
 }
 :root {
     --color-font-one: #5c8088;
@@ -186,6 +186,9 @@ body {
     .header-nav a {
     padding: 8px;
 }
+    .header-nav .signup a, .header-nav .account a {
+    margin-bottom: 10px;
+}
     .global-logo .is-title {
     font-size: 1.5rem;
     max-width: 180px;
@@ -195,6 +198,9 @@ body {
 }
     .post-header-wrap {
     margin-top: 10vh;
+}
+    .post-content {
+    margin: 10vh auto 14vh;
 }
 }
 
