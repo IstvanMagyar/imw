@@ -12,7 +12,14 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
+.global-cover:not(.is-membership) {
+    opacity: 100;
+}
+.global-cover {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* HEADER */
 
     .global-logo .is-title {
