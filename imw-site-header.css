@@ -43,10 +43,10 @@ body {
     /*color: #fff;*/
 }
     .header-wrap, .header-checkbox:checked~nav {
-    min-height: 40px;
+    /*min-height: 40px;
     padding-top: 0vh;
     padding-bottom: 0vh;
-    /*background: #41556b;*/
+    background: #41556b;*/
 }
     .header-toggle .bar:nth-child(1) {
     top: -7px;
