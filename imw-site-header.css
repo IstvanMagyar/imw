@@ -40,29 +40,28 @@ body {
     .header-wrap li, .header-wrap a {
     font-size: 1.4rem;
     text-transform: uppercase;
-    color: #fff;
+    /*color: #fff;*/
 }
     .header-wrap, .header-checkbox:checked~nav {
     min-height: 40px;
     padding-top: 0vh;
     padding-bottom: 0vh;
-    background: #41556b;
+    /*background: #41556b;*/
 }
     .header-toggle .bar:nth-child(1) {
     top: -7px;
-    background-color: #fff;
+    /*background-color: #fff;*/
 }
     .header-toggle .bar:nth-child(2) {
-    background-color: #fff;
+    /*background-color: #fff;*/
 }
     .header-toggle .bar:nth-child(3) {
     top: 7px;
-    background-color: #fff;
+    /*background-color: #fff;*/
 }
     .header-nav svg {
-    fill: #fff;
+    /*fill: #fff;*/
 }
-
 /* HEADER CARD */
 
     .kg-header-card.kg-style-image a.kg-header-card-button, .kg-header-card.kg-style-image h1.kg-header-card-header, .kg-header-card.kg-style-image h3.kg-header-card-subheader {
