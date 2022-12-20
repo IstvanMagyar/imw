@@ -1,4 +1,3 @@
-
     :root {
     --color-font-one: #496065;
 }
@@ -151,7 +150,7 @@ body {
     .global-main {
     flex: 1 0 auto;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 60px;
     max-width: 1600px;
 }
     .header-wrap li, .header-wrap a {
@@ -169,7 +168,7 @@ body {
     z-index: 999;
 }  
 
-
+/* PICTURE CARD */
     .imw-card-wrapper {
         margin-left: auto;
             margin-right: auto;
@@ -253,4 +252,53 @@ body {
     .imw-card p {
     font-size: 1.5rem;
 }
+    }
+
+/* HEROPAGE header grid */
+.imw-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: end;
+    justify-items: start;
+    width: 100%;
+}
+.imw-grid-title-box {
+    grid-area: 1/1/2/2;
+    z-index:1;
+    background: #55555555;
+    padding-bottom: 0px;
+    }
+.imw-grid-title-box h1 {
+    color: #fff;
+    }
+.imw-grid-title-box.post-header-content {
+    max-width: inherit;
+    }
+.imw-grid-title-box.post-header-content h1{
+    margin-left: 20px;
+    }
+.imw-grid-title-box.post-header-content .post-tags {
+    margin-left: 20px;
+    }
+.imw-grid-image-box {
+    grid-area: 1/1/2/2;
+    }
+.global-image-orientation {
+    position: unset;
+    }
+.global-image-orientation > img {
+    position: unset;
+    }
+.imw-grid-image-box.post-header-image {
+    margin-top: 0px;
+    }
+  
+.global-image-orientation.is-panoramic {
+    aspect-ratio: 4/2.3;
+    }
+@media all and (max-width: 768px) and (orientation: portrait) {
+    .global-image-orientation.is-panoramic {
+    aspect-ratio: 4/5;
+    }
     }
