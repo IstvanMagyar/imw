@@ -312,18 +312,18 @@ body {
 }
     }
 
-@media (max-width: 768) {
+@media (max-width: 768px) {
     .imw-grid-title-box .post-title {
     font-size: 5rem;
 }
     }
 
-@media (max-width: 640) {
+@media (max-width: 640px) {
     .imw-grid-title-box .post-title {
     font-size: 4rem;
 }
     }
-@media (max-width: 480) {
+@media (max-width: 480px) {
     .imw-grid-title-box .post-title {
     font-size: 3rem;
 }
