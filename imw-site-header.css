@@ -143,7 +143,7 @@ body {
     .header-section {
     position: fixed;
     z-index: 999;
-    background-color: #ff3f3f3;
+    background-color: #f3f3f3;
     width: 100%;
     border-bottom: 1px solid #d5dee6;
 }
