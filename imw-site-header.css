@@ -281,6 +281,9 @@ body {
 .imw-grid-title-box.post-header-content .post-tags {
     margin-left: 20px;
     }
+.imw-grid-title-box .post-title {
+    font-size: 8rem;
+}
 .imw-grid-image-box {
     grid-area: 1/1/2/2;
     }
@@ -301,4 +304,27 @@ body {
     .global-image-orientation.is-panoramic {
     aspect-ratio: 4/5;
     }
+    }
+
+@media (max-width: 1024px) {
+    .imw-grid-title-box .post-title {
+    font-size: 6rem;
+}
+    }
+
+@media (max-width: 768) {
+    .imw-grid-title-box .post-title {
+    font-size: 5rem;
+}
+    }
+
+@media (max-width: 640) {
+    .imw-grid-title-box .post-title {
+    font-size: 4rem;
+}
+    }
+@media (max-width: 480) {
+    .imw-grid-title-box .post-title {
+    font-size: 3rem;
+}
     }
