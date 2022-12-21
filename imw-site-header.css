@@ -268,8 +268,9 @@ body {
     z-index: 1;
     background: #55555555;
     padding-bottom: 0px;
-    padding-left: 20px;
+    padding-left: 0px;
     box-sizing: border-box;
+    text-align: center;
 }
 .imw-grid-title-box h1 {
     color: #fff;
@@ -277,6 +278,14 @@ body {
 .imw-grid-title-box.post-header-content {
     max-width: inherit;
     }
+
+.imw-heropage.global-padding {
+    max-width: var(--max-width-global-wrap);
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+}
 /*.imw-grid-title-box.post-header-content h1{
     margin-left: 20px;
     }
