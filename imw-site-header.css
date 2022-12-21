@@ -93,6 +93,8 @@ body {
     min-height: 100vh;
     margin: auto;
 }
+
+/*
 .header-wrap {
     padding: 0 3vh;
 }
@@ -109,12 +111,20 @@ body {
     width: 20px;
     left: 20px;
 }
+*/
+
     .post-content blockquote {
     border-left: 6px solid #ffd27a;
 }
 
 @media (max-width: 1024px) {
-.header-toggle {
+    .header-toggle .bar:nth-child(1) {
+        top: -8px;
+    }
+    .header-toggle .bar:nth-child(3) {
+    top: 8px;
+}
+/*.header-toggle {
     display: inline-block;
     position: fixed;
     top: 10px;
@@ -132,14 +142,11 @@ body {
     .global-logo.is-header img {
         top: 2px;
     }
-    .header-toggle .bar:nth-child(1) {
-        top: -8px;
-    }
-    .header-toggle .bar:nth-child(3) {
-    top: 8px;
-}
+*/
+    
     }
     
+/*
     .header-section {
     position: fixed;
     z-index: 999;
@@ -147,15 +154,14 @@ body {
     width: 100%;
     border-bottom: 1px solid #d5dee6;
 }
+*/
+    
+/*
     .global-main {
     flex: 1 0 auto;
     width: 100%;
     margin-top: 60px;
     max-width: 1600px;
-}
-    .header-wrap li, .header-wrap a {
-    text-transform: uppercase;
-    font-size: 1.35rem;
 }
     .header-wrap {
     margin-top: 0;
@@ -163,6 +169,10 @@ body {
     padding-bottom: 0;
     max-width:1600px;
     margin: auto;    
+}*/
+    .header-wrap li, .header-wrap a {
+    text-transform: uppercase;
+    font-size: 1.35rem;
 }
   .post-progress, .post-progress[value]::-webkit-progress-bar {
     z-index: 999;
