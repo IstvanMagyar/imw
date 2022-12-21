@@ -93,7 +93,12 @@ body {
     min-height: 100vh;
     margin: auto;
 }
-
+ .header-logo {
+    margin: 0px .5vw 00px 0px;
+}
+.header-wrap {
+    padding: 0vh 2vw 0vh;
+}
 /*
 .header-wrap {
     padding: 0 3vh;
