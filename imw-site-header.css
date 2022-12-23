@@ -107,15 +107,6 @@
     .imw-card-info {
         padding: 10px 24px 0px;
     }
-    .imw-card-title h2 {
-        font-size: 3rem;
-        font-weight: 400;
-        margin-bottom: 10px;
-    }
-    .imw-card p {
-    margin-bottom: 20px;
-    line-height: 1.6;
-    font-size: 1.8rem;
 }
     @media (max-width: 640px) {
     .imw-card {
@@ -131,9 +122,7 @@
     }
     }
     @media (max-width: 1024px) {
-    .imw-card p {
-    font-size: 1.5rem;
-}
+
     }
 
 /* HEROPAGE header grid */
