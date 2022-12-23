@@ -1,20 +1,19 @@
 :root {
-        font-size:50%;
+    font-size:50%;
     --color-font-one: #57676b;
 }
-    .post-content a {
-        color:#8c5379;
-        text-decoration:none;
-    }
+.post-content a {
+    color:#8c5379;
+    text-decoration:none;
+}
 .header-nav a {
     text-transform: uppercase;
-    }
-
-    .hero-title {
+}
+.hero-title {
     font-weight: normal;
     text-transform: uppercase;
-        word-spacing: 4px;
-        letter-spacing: 0.025em;
+    word-spacing: 4px;
+    letter-spacing: 0.025em;
 }
     .post-header-wrap.is-center {
     text-align: left;
