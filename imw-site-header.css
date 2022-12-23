@@ -1,6 +1,14 @@
-    :root {
-    --color-font-one: #496065;
+:root {
+        font-size:50%;
+    --color-font-one: #57676b;
 }
+    .post-content a {
+        color:#8c5379;
+        text-decoration:none;
+    }
+.header-nav a {
+    text-transform: uppercase;
+    }
 
     .hero-title {
     font-weight: normal;
