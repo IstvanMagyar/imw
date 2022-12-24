@@ -9,12 +9,6 @@
 .header-nav a {
     text-transform: uppercase;
 }
-.hero-title {
-    font-weight: normal;
-    text-transform: uppercase;
-    word-spacing: 4px;
-    letter-spacing: 0.025em;
-}
     .post-header-wrap.is-center {
     text-align: left;
 }
@@ -24,15 +18,18 @@
     .post-share > div a {
     background-color: #ffd37b;
 }
-/*.global-wrap, .global-content {
+.global-wrap, .global-content {
     min-height: 100vh;
     margin: auto;
-}*/
+}
 
 .post-content blockquote {
     border-left: 6px solid #ffd27a;
 }
 
+.footer-description {
+    opacity: 1;
+}
 @media (max-width: 1024px) {
     .header-toggle .bar:nth-child(1) {
         top: -8px;
@@ -46,9 +43,7 @@
     .header-wrap li, .header-wrap a {
     text-transform: uppercase;
 }
-  .post-progress, .post-progress[value]::-webkit-progress-bar {
-    z-index: 999;
-}  
+ 
 
 /* PICTURE CARD */
     .imw-card-wrapper {
