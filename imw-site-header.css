@@ -151,7 +151,7 @@
 .imw-grid-title-box.post-header-content {
     max-width: inherit;
     }
-    
+
 .imw-grid-title-box .post-excerpt {
     font-size: 4rem;
     color: #fff;
@@ -201,11 +201,17 @@
     .imw-grid-title-box .post-title {
     font-size: 8rem;
 }
+.imw-grid-title-box .post-excerpt {
+    font-size: 3.6rem;
+}
     }
 
 @media (max-width: 768px) {
     .imw-grid-title-box .post-title {
     font-size: 6rem;
+}
+.imw-grid-title-box .post-excerpt {
+    font-size: 3.2rem;
 }
     }
 
@@ -213,9 +219,15 @@
     .imw-grid-title-box .post-title {
     font-size: 5rem;
 }
+.imw-grid-title-box .post-excerpt {
+    font-size: 2.8rem;
+}
     }
 @media (max-width: 480px) {
     .imw-grid-title-box .post-title {
-    font-size: 4rem;
+    font-size: 4rem;   
+}
+.imw-grid-title-box .post-excerpt {
+    font-size: 2.4rem;
 }
     }
