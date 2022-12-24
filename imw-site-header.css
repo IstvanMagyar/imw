@@ -151,6 +151,12 @@
 .imw-grid-title-box.post-header-content {
     max-width: inherit;
     }
+    
+.imw-grid-title-box .post-excerpt {
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 600;
+}
 
 .imw-heropage.global-padding {
     max-width: var(--max-width-global-wrap);
@@ -184,12 +190,6 @@
 .global-image-orientation.is-panoramic {
     aspect-ratio: 4/2.3;
     }
-
-.imw-grid-title-box .post-excerpt {
-    font-size: 4rem;
-    color: #fff;
-    font-weight: 600;
-}
 
 @media all and (max-width: 768px) and (orientation: portrait) {
     .global-image-orientation.is-panoramic {
