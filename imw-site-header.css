@@ -140,9 +140,10 @@
     display: flex;
     height: 100%;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     height: 100%;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
 }
 .imw-grid-title-box h1 {
     color: #fff;
