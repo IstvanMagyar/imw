@@ -204,11 +204,11 @@
 
 @media (max-width: 640px) {
     .imw-grid-title-box .post-title {
-    font-size: 4rem;
+    font-size: 5rem;
 }
     }
 @media (max-width: 480px) {
     .imw-grid-title-box .post-title {
-    font-size: 3rem;
+    font-size: 4rem;
 }
     }
